@@ -1,0 +1,37 @@
+@import "./media";
+@include media(1200px);
+@include media(992px);
+@include media(768px);
+@include media(540px);
+@include media(539px);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 98%;
+  height: 100%;
+  margin-left: 10px;
+
+}
